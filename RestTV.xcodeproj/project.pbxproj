@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D1F27D61D99976A006DED74 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1F27D51D99976A006DED74 /* detailViewController.swift */; };
+		5D4E2A671D9A63BC0036F2A3 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4E2A661D9A63BC0036F2A3 /* Restaurant.swift */; };
+		5D4E2A691D9A789E0036F2A3 /* RestaurantCustomTableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4E2A681D9A789E0036F2A3 /* RestaurantCustomTableViewCell1.swift */; };
+		5D4E2A6B1D9A78F00036F2A3 /* RestaurantCustomTableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4E2A6A1D9A78F00036F2A3 /* RestaurantCustomTableViewCell2.swift */; };
+		5D5079E71D9D7410006E3B00 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5079E61D9D7410006E3B00 /* MapKit.framework */; };
+		5D5079E91D9D756C006E3B00 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5079E81D9D756C006E3B00 /* MapViewController.swift */; };
 		5D86F94C1D9543660081502D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86F94B1D9543660081502D /* AppDelegate.swift */; };
-		5D86F94E1D9543660081502D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86F94D1D9543660081502D /* ViewController.swift */; };
 		5D86F9511D9543660081502D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D86F94F1D9543660081502D /* Main.storyboard */; };
 		5D86F9531D9543660081502D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D86F9521D9543660081502D /* Assets.xcassets */; };
 		5D86F9561D9543660081502D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D86F9541D9543660081502D /* LaunchScreen.storyboard */; };
+		5D86F95E1D9544020081502D /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86F95D1D9544020081502D /* Restaurants.swift */; };
+		5D86F9601D955FD90081502D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86F95F1D955FD90081502D /* CustomTableViewCell.swift */; };
+		5D8A812B1D9BDA0E0014EB06 /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A812A1D9BDA0E0014EB06 /* RateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D1F27D51D99976A006DED74 /* detailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		5D4E2A661D9A63BC0036F2A3 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		5D4E2A681D9A789E0036F2A3 /* RestaurantCustomTableViewCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantCustomTableViewCell1.swift; sourceTree = "<group>"; };
+		5D4E2A6A1D9A78F00036F2A3 /* RestaurantCustomTableViewCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantCustomTableViewCell2.swift; sourceTree = "<group>"; };
+		5D5079E61D9D7410006E3B00 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5D5079E81D9D756C006E3B00 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		5D86F9481D9543660081502D /* RestTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D86F94B1D9543660081502D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5D86F94D1D9543660081502D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5D86F9501D9543660081502D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D86F9521D9543660081502D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D86F9551D9543660081502D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D86F9571D9543660081502D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D86F95D1D9544020081502D /* Restaurants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Restaurants.swift; path = ../Restaurants.swift; sourceTree = "<group>"; };
+		5D86F95F1D955FD90081502D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		5D8A812A1D9BDA0E0014EB06 /* RateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D5079E71D9D7410006E3B00 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D495D3B1D9ADF86008AFDEF /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				5D4E2A6A1D9A78F00036F2A3 /* RestaurantCustomTableViewCell2.swift */,
+				5D4E2A681D9A789E0036F2A3 /* RestaurantCustomTableViewCell1.swift */,
+				5D1F27D51D99976A006DED74 /* detailViewController.swift */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		5D495D3C1D9ADFAF008AFDEF /* MainTable */ = {
+			isa = PBXGroup;
+			children = (
+				5D86F95F1D955FD90081502D /* CustomTableViewCell.swift */,
+				5D86F95D1D9544020081502D /* Restaurants.swift */,
+			);
+			name = MainTable;
+			sourceTree = "<group>";
+		};
+		5D5079E51D9D7410006E3B00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D5079E61D9D7410006E3B00 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5D86F93F1D9543660081502D = {
 			isa = PBXGroup;
 			children = (
 				5D86F94A1D9543660081502D /* RestTV */,
 				5D86F9491D9543660081502D /* Products */,
+				5D5079E51D9D7410006E3B00 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,8 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				5D86F94B1D9543660081502D /* AppDelegate.swift */,
-				5D86F94D1D9543660081502D /* ViewController.swift */,
 				5D86F94F1D9543660081502D /* Main.storyboard */,
+				5D5079E81D9D756C006E3B00 /* MapViewController.swift */,
+				5D8A812A1D9BDA0E0014EB06 /* RateViewController.swift */,
+				5D495D3B1D9ADF86008AFDEF /* Detail */,
+				5D495D3C1D9ADFAF008AFDEF /* MainTable */,
+				5D4E2A661D9A63BC0036F2A3 /* Restaurant.swift */,
 				5D86F9521D9543660081502D /* Assets.xcassets */,
 				5D86F9541D9543660081502D /* LaunchScreen.storyboard */,
 				5D86F9571D9543660081502D /* Info.plist */,
@@ -97,6 +146,11 @@
 					5D86F9471D9543660081502D = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -136,8 +190,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D86F94E1D9543660081502D /* ViewController.swift in Sources */,
+				5D4E2A671D9A63BC0036F2A3 /* Restaurant.swift in Sources */,
+				5D86F9601D955FD90081502D /* CustomTableViewCell.swift in Sources */,
+				5D86F95E1D9544020081502D /* Restaurants.swift in Sources */,
+				5D4E2A691D9A789E0036F2A3 /* RestaurantCustomTableViewCell1.swift in Sources */,
+				5D5079E91D9D756C006E3B00 /* MapViewController.swift in Sources */,
+				5D4E2A6B1D9A78F00036F2A3 /* RestaurantCustomTableViewCell2.swift in Sources */,
 				5D86F94C1D9543660081502D /* AppDelegate.swift in Sources */,
+				5D8A812B1D9BDA0E0014EB06 /* RateViewController.swift in Sources */,
+				5D1F27D61D99976A006DED74 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +360,7 @@
 				5D86F95C1D9543660081502D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
