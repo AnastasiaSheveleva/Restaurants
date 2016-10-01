@@ -26,6 +26,7 @@ class RateViewController: UIViewController {
     
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
