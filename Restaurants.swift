@@ -173,6 +173,10 @@ class Restaurants: UITableViewController {
         navigationController?.hidesBarsOnSwipe = true
         tableView.reloadData()
     }
+    
+    @IBAction func unwindToRestaurant(segue: UIStoryboardSegue) {
+        
+    }
 
     /*
     // Override to support rearranging the table view.

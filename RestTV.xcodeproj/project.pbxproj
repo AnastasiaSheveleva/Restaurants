@@ -20,6 +20,7 @@
 		5D86F95E1D9544020081502D /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86F95D1D9544020081502D /* Restaurants.swift */; };
 		5D86F9601D955FD90081502D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86F95F1D955FD90081502D /* CustomTableViewCell.swift */; };
 		5D8A812B1D9BDA0E0014EB06 /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A812A1D9BDA0E0014EB06 /* RateViewController.swift */; };
+		F2968F221DA1AC3300EE9205 /* AddRestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2968F211DA1AC3300EE9205 /* AddRestaurantTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		5D86F95D1D9544020081502D /* Restaurants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Restaurants.swift; path = ../Restaurants.swift; sourceTree = "<group>"; };
 		5D86F95F1D955FD90081502D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		5D8A812A1D9BDA0E0014EB06 /* RateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateViewController.swift; sourceTree = "<group>"; };
+		F2968F211DA1AC3300EE9205 /* AddRestaurantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRestaurantTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				5D86F94B1D9543660081502D /* AppDelegate.swift */,
 				5D86F94F1D9543660081502D /* Main.storyboard */,
+				F2968F211DA1AC3300EE9205 /* AddRestaurantTableViewController.swift */,
 				5D5079E81D9D756C006E3B00 /* MapViewController.swift */,
 				5D8A812A1D9BDA0E0014EB06 /* RateViewController.swift */,
 				5D495D3B1D9ADF86008AFDEF /* Detail */,
@@ -190,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2968F221DA1AC3300EE9205 /* AddRestaurantTableViewController.swift in Sources */,
 				5D4E2A671D9A63BC0036F2A3 /* Restaurant.swift in Sources */,
 				5D86F9601D955FD90081502D /* CustomTableViewCell.swift in Sources */,
 				5D86F95E1D9544020081502D /* Restaurants.swift in Sources */,
