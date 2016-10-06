@@ -63,8 +63,8 @@ class MapViewController: UIViewController, MKMapViewDelegate {
             annotationView?.canShowCallout = true
         }
         
-        let leftIconView = UIImageView(frame: CGRect(x: 0, y: 0, width: 80, height: 53))
-        leftIconView.image = UIImage(named: restaurant.logo)
+        let leftIconView = UIImageView(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+        leftIconView.image = UIImage(data: restaurant.image! as Data)
         annotationView?.leftCalloutAccessoryView = leftIconView
         annotationView?.image = UIImage(named: "pin1")
         

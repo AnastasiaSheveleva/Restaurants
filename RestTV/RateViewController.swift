@@ -96,11 +96,8 @@ class RateViewController: UIViewController {
         let scale1 = CGAffineTransform(scaleX: 0.0, y: 0.0)
         let scale2 = CGAffineTransform(scaleX: 1.5, y: 1.5)
         
-        //let translation = CGAffineTransform(translationX: 200, y: 0)
-        
-        UIView.animate(withDuration: 0.4, delay: 0.1, options: [], animations: {
+            UIView.animate(withDuration: 0.4, delay: 0.1, options: [], animations: {
             sender.transform = scale2.concatenating(translation!)
-//            sender.center = (sender.superview!.center)
             for element in unselectedButtons! {
                 element.transform = scale1
             }
@@ -111,51 +108,6 @@ class RateViewController: UIViewController {
         })
         
     }
-    
-    
-   /* @IBAction func rateSelect(sender: UIButton) {
-        switch sender.tag {
-        case 1:
-            rating = "dislike"
-            selectedButton = dislikeButton
-            unselectedButton1 = goodButton
-            unselectedButton2 = greatButton
-        case 2:
-            rating = "good"
-            selectedButton = goodButton
-            unselectedButton1 = dislikeButton
-            unselectedButton2 = greatButton
-        case 3:
-            rating = "great"
-            selectedButton = greatButton
-            unselectedButton1 = goodButton
-            unselectedButton2 = dislikeButton
-        default: break
-        }
-        let scale1 = CGAffineTransform(scaleX: 0.0, y: 0.0)
-        let scale2 = CGAffineTransform(scaleX: 2.0, y: 2.0)
-        UIView.animate(withDuration: 0.2, delay: 0.0, options: [], animations: {
-            self.selectedButton?.transform = scale2
-            self.unselectedButton1?.transform = scale1
-            self.unselectedButton2?.transform = scale1
-            }, completion: {(finished: Bool) in
-                self.performSegue(withIdentifier: "unwindToDetail", sender: sender)
- 
-        })
-        
-    } */
-    
-    
-   /* override func viewWillDisappear(_ animated: Bool) {
-        let scale1 = CGAffineTransform(scaleX: 0.0, y: 0.0)
-        let scale2 = CGAffineTransform(scaleX: 2.0, y: 2.0)
-        UIView.animate(withDuration: 0.2, delay: 0.0, options: [], animations: {
-            self.selectedButton?.transform = scale2
-            self.unselectedButton1?.transform = scale1
-            self.unselectedButton2?.transform = scale1
-            }, completion: nil)
-     }*/
-    
     
     /*
     // MARK: - Navigation
