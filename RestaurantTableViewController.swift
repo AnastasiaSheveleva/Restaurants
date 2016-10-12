@@ -19,6 +19,12 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
    override func viewDidLoad() {
         super.viewDidLoad()
     
+        // Убрать пустые ячейки таблицы
+        //tableView.tableFooterView = UIView(frame: CGRect.zero)
+    
+        // Сменить title в Navigation Bar
+        title = NSLocalizedString("Restaurants", comment: "Main table name")
+    
         // Удалить title у кнопки  back
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
     
@@ -27,7 +33,7 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
         tableView.tableHeaderView = searchController.searchBar
         searchController.searchResultsUpdater = self
         searchController.dimsBackgroundDuringPresentation = false
-        searchController.searchBar.placeholder = "Поиск ресторанов..."
+        searchController.searchBar.placeholder = NSLocalizedString("Restaurants search", comment: "Search bar placeholder")
         searchController.searchBar.tintColor = UIColor.white
         searchController.searchBar.barTintColor = UIColor(white: 0.4, alpha: 1.0)
     
@@ -156,14 +162,14 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
     override func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
         
         //Social
-        let shareAction = UITableViewRowAction(style: .default, title: "Поделиться", handler: { (ACTION, indexPath) -> Void in
-            let defaultText = "Попробуй вкусняшки в " + self.restaurants[indexPath.row].name
+        let shareAction = UITableViewRowAction(style: .default, title: NSLocalizedString("Share", comment: "Share button"), handler: { (ACTION, indexPath) -> Void in
+            let defaultText = NSLocalizedString("Share with text", comment: "Share text") + self.restaurants[indexPath.row].name
             let activityController = UIActivityViewController(activityItems: [defaultText], applicationActivities: nil)
             self.present(activityController, animated: true, completion: nil)
         })
         
         //Delete
-        let deleteAction = UITableViewRowAction(style: .default, title: "Удалить", handler: {(ACTION, indexPath) -> Void in
+        let deleteAction = UITableViewRowAction(style: .default, title: NSLocalizedString("Delete", comment: "Delete button"), handler: {(ACTION, indexPath) -> Void in
             self.restaurants.remove(at: indexPath.row)
             
             let managedObjectContext = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext

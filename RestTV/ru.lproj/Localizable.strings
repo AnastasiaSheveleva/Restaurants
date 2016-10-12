@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  RestTV
+
+  Created by Анастасия on 11.10.16.
+  Copyright © 2016 Anastasia. All rights reserved.
+*/
+
+"Restaurants" = "Рестораны";
+"Restaurants search" = "Поиск ресторанов...";
+"Share" = "Поделиться";
+"Delete" = "Удалить";
+"Share with text" = "Попробуй вкусняшки в ";
+"New restaurant" = "Новый ресторан";
+"Enter restaurant name" = "Введите название ресторана";
+"Enter restaurant phone number in format +7 (812) 777-77-77" = "Введите номер в формате +7 (812) 777-77-77";
+"Enter restaurant location" = "Введите адрес ресторана (улица и дом)";
+"Yes" = "Да";
+"No" = "Нет";
+"Oops!" = "Ой!";
+"You can not continue, because one of the fields blank. Please fill in all required fields" = "Невозможно продолжить, потому что одно из полей пустое. Пожалуйста, заполните все необходимые поля";
+"Been here" = "Я был здесь";
+"Name" = "Название";
+"Phone" = "Телефон";
+"Location" = "Адрес";
+"Call to " = "Позвонить в ";
+"by number " = "по номеру ";
+"Service is not available" = "Сервис не доступен";
+"Sorry, but now it is impossible to call. Try later" = "Простите но сейчас позвонить невозможно. Попробуйте позже";
+"Give feedback" = "Оставить отзыв";
+"Subscribe" = "Подписаться";
+"Rate in the AppStore" = "Оценить в AppStore";
+"Leave a comment on the website" = "Оставить отзыв на сайте";

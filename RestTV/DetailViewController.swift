@@ -79,7 +79,7 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             if indexPath.row == 3 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: "Cell2", for: indexPath) as! RestaurantCustomTableViewCell2
-                    cell.fieldLabel.text = "Я был здесь"
+                    cell.fieldLabel.text = NSLocalizedString("Been here", comment: "Been here field")
                     if restaurant.isVisited == false {
                         cell.valueIsVisited.isOn = false
                     }
@@ -95,13 +95,13 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
                 let cell = tableView.dequeueReusableCell(withIdentifier: "Cell1", for: indexPath) as! RestaurantCustomTableViewCell1
                 switch indexPath.row {
                     case 0:
-                        cell.fieldLabel.text = "Название"
+                        cell.fieldLabel.text = NSLocalizedString("Name", comment: "Name field")
                         cell.valueLabel.text = restaurant.name
                     case 1:
-                        cell.fieldLabel.text = "Телефон"
+                        cell.fieldLabel.text = NSLocalizedString("Phone", comment: "Phone field")
                         cell.valueLabel.text = restaurant.phone
                     case 2:
-                        cell.fieldLabel.text = "Адрес"
+                        cell.fieldLabel.text = NSLocalizedString("Location", comment: "Location field")
                         cell.valueLabel.text = restaurant.adress
                     default:
                         cell.fieldLabel.text = ""
@@ -148,14 +148,14 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     @IBAction func phoneButtonClick(_ sender: AnyObject) {
         
-        let alertController = UIAlertController(title: "Позвонить в " + "\(restaurant.name)", message: "по номеру " + "\(restaurant.phone! as String)" + "?", preferredStyle: UIAlertControllerStyle.alert)
-        alertController.addAction(UIAlertAction(title: "Да", style: UIAlertActionStyle.default, handler: {
+        let alertController = UIAlertController(title: NSLocalizedString("Call to ", comment: "Call in allert title") + "\(restaurant.name)", message: NSLocalizedString("by number ", comment: "Number in allert message") + "\(restaurant.phone! as String)" + "?", preferredStyle: UIAlertControllerStyle.alert)
+        alertController.addAction(UIAlertAction(title: NSLocalizedString("Yes", comment: "Answer yes"), style: UIAlertActionStyle.default, handler: {
             (action: UIAlertAction!) -> Void in
-            let alertController2 = UIAlertController(title: "Сервис не доступен", message: "Простите но сейчас позвонить невозможно. Попробуйте позже.", preferredStyle: UIAlertControllerStyle.alert)
+            let alertController2 = UIAlertController(title: NSLocalizedString("Service is not available", comment: "Service is not available allert title") , message: NSLocalizedString("Sorry, but now it is impossible to call. Try later.", comment: "Service is not available allert message"), preferredStyle: UIAlertControllerStyle.alert)
             alertController2.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
             self.present(alertController2, animated: true, completion: nil)
         }))
-        alertController.addAction(UIAlertAction(title: "Нет", style: UIAlertActionStyle.cancel, handler: nil))
+        alertController.addAction(UIAlertAction(title: NSLocalizedString("No", comment: "Answer no"), style: UIAlertActionStyle.cancel, handler: nil))
         self.present(alertController, animated: true, completion: nil)
         
     }

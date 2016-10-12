@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Рестораны-->
+        <!--Restaurant Table View Controller-->
         <scene sceneID="0Se-oG-Prn">
             <objects>
                 <tableViewController id="bjl-Io-ElH" customClass="RestaurantTableViewController" customModule="RestTV" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,30 +18,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <inset key="separatorInset" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        <view key="tableFooterView" contentMode="scaleToFill" id="CUi-ec-wsC">
-                            <rect key="frame" x="0.0" y="172" width="375" height="44"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Для добавления нового ресторана нажмите &quot;+&quot; в правом верхнем углу экрана" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecD-Fj-xuQ">
-                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                    <color key="textColor" red="1" green="0.40000000000000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                            </subviews>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <constraints>
-                                <constraint firstItem="ecD-Fj-xuQ" firstAttribute="top" secondItem="CUi-ec-wsC" secondAttribute="top" constant="4" id="2Av-6z-fNu"/>
-                                <constraint firstAttribute="trailing" secondItem="ecD-Fj-xuQ" secondAttribute="trailing" constant="8" id="Qpx-mG-CSx"/>
-                                <constraint firstAttribute="bottom" secondItem="ecD-Fj-xuQ" secondAttribute="bottom" constant="4" id="egO-Sf-el8"/>
-                                <constraint firstItem="ecD-Fj-xuQ" firstAttribute="leading" secondItem="CUi-ec-wsC" secondAttribute="leading" constant="8" id="uhJ-WR-ZIm"/>
-                            </constraints>
-                        </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="80" id="89B-gv-FJ6" customClass="CustomTableViewCell" customModule="RestTV" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="89B-gv-FJ6" id="0nT-1e-0Eh">
-                                    <frame key="frameInset" width="375" height="79"/>
+                                    <frame key="frameInset" width="375" height="80"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Efn-mP-mEY">
@@ -99,7 +81,7 @@
                             <outlet property="delegate" destination="bjl-Io-ElH" id="iSE-5n-8Lw"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Рестораны" id="fis-KO-EJ3">
+                    <navigationItem key="navigationItem" id="fis-KO-EJ3">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="zGu-5A-NQr">
                             <connections>
                                 <segue destination="z6g-or-eec" kind="presentation" identifier="addRestaurant" id="8wB-qM-alC"/>
@@ -124,7 +106,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AWZ-Bw-mW9" id="cFM-hV-4mi">
-                                    <frame key="frameInset" width="375" height="43"/>
+                                    <frame key="frameInset" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -140,11 +122,11 @@
             </objects>
             <point key="canvasLocation" x="2036" y="670"/>
         </scene>
-        <!--О программе-->
+        <!--About-->
         <scene sceneID="dxx-Yb-gk7">
             <objects>
                 <navigationController id="4po-UF-MxG" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="О программе" image="about" id="Wty-qA-HC6"/>
+                    <tabBarItem key="tabBarItem" title="About" image="about" id="Wty-qA-HC6"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="cV0-Me-aqn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -166,40 +148,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="Yhk-G4-RBe">
-                            <rect key="frame" x="0.0" y="64" width="375" height="145"/>
+                            <rect key="frame" x="0.0" y="64" width="375" height="280"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="flV-3K-H25">
-                                    <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="InE-Uk-hLe">
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="100" id="Ssc-iU-5JC"/>
-                                                <constraint firstAttribute="height" constant="100" id="YTU-5C-9jx"/>
-                                            </constraints>
-                                        </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GINZA Project" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7S-si-clz">
-                                            <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="24"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GinzaLogo" translatesAutoresizingMaskIntoConstraints="NO" id="InE-Uk-hLe">
                                     <constraints>
-                                        <constraint firstAttribute="width" constant="157" id="g4Y-Hy-MiP"/>
-                                        <constraint firstAttribute="height" constant="128" id="lp5-kB-AHm"/>
+                                        <constraint firstAttribute="height" constant="238" id="pob-TB-skR"/>
+                                        <constraint firstAttribute="width" constant="375" id="xS2-KN-FtW"/>
                                     </constraints>
-                                </stackView>
+                                </imageView>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstItem="flV-3K-H25" firstAttribute="leading" secondItem="Yhk-G4-RBe" secondAttribute="leading" constant="109" id="8PX-NR-PPM"/>
-                                <constraint firstAttribute="trailing" secondItem="flV-3K-H25" secondAttribute="trailing" constant="109" id="GXk-oI-f3U"/>
-                                <constraint firstItem="flV-3K-H25" firstAttribute="top" secondItem="Yhk-G4-RBe" secondAttribute="top" constant="8" id="KRK-yI-SKN"/>
-                                <constraint firstAttribute="bottom" secondItem="flV-3K-H25" secondAttribute="bottom" constant="9" id="XrM-q2-FgE"/>
+                                <constraint firstItem="InE-Uk-hLe" firstAttribute="centerY" secondItem="Yhk-G4-RBe" secondAttribute="centerY" id="6vY-Ix-SN2"/>
+                                <constraint firstItem="InE-Uk-hLe" firstAttribute="centerX" secondItem="Yhk-G4-RBe" secondAttribute="centerX" id="R1R-VO-Ab6"/>
                             </constraints>
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="8U2-TW-D7f" style="IBUITableViewCellStyleDefault" id="eRq-4s-Z2Z">
-                                <rect key="frame" x="0.0" y="237" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="372" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eRq-4s-Z2Z" id="ZJ9-I1-fp3">
                                     <frame key="frameInset" width="375" height="43"/>
@@ -222,16 +189,36 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="HtR-yV-2L2"/>
+                    <connections>
+                        <segue destination="bBr-FX-qeJ" kind="show" identifier="showWebView" id="NZT-0B-b1F"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qQ0-eU-XHk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2036" y="1342.5787106446778"/>
         </scene>
-        <!--Рекомендации-->
+        <!--Web View Controller-->
+        <scene sceneID="Yb7-Dd-T79">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="bBr-FX-qeJ" customClass="WebViewController" customModule="RestTV" customModuleProvider="target" sceneMemberID="viewController">
+                    <webView key="view" contentMode="scaleToFill" id="0K0-ho-fD2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </webView>
+                    <connections>
+                        <outlet property="webView" destination="0K0-ho-fD2" id="99K-Nz-7XZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gSC-PM-ULi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2762" y="1343"/>
+        </scene>
+        <!--Recomendation-->
         <scene sceneID="L3d-qS-FY3">
             <objects>
                 <navigationController id="p1X-S9-e9U" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Рекомендации" image="recom" id="DzL-YR-txY"/>
+                    <tabBarItem key="tabBarItem" title="Recomendation" image="recom" id="DzL-YR-txY"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="m0V-Zm-g33">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -244,7 +231,7 @@
             </objects>
             <point key="canvasLocation" x="1324" y="670"/>
         </scene>
-        <!--Новый ресторан-->
+        <!--Add Restaurant Table View Controller-->
         <scene sceneID="Svy-sb-3mB">
             <objects>
                 <tableViewController id="40T-Xu-5hc" customClass="AddRestaurantTableViewController" customModule="RestTV" customModuleProvider="target" sceneMemberID="viewController">
@@ -260,7 +247,7 @@
                                         <rect key="frame" x="0.0" y="64" width="375" height="250"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XqZ-NA-y9h" id="cqv-3H-pFh">
-                                            <frame key="frameInset" width="375" height="249"/>
+                                            <frame key="frameInset" width="375" height="250"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="picture" translatesAutoresizingMaskIntoConstraints="NO" id="ii9-EK-XLu"/>
@@ -278,10 +265,10 @@
                                         <rect key="frame" x="0.0" y="314" width="375" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Bcg-6S-osb" id="OVR-Ab-TAO">
-                                            <frame key="frameInset" width="375" height="74"/>
+                                            <frame key="frameInset" width="375" height="75"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Название" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B9N-g8-g4Z">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name field" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B9N-g8-g4Z">
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="98" id="wmL-Bk-kGs"/>
                                                     </constraints>
@@ -289,7 +276,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Введите название ресторана" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zvc-8z-lu2">
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zvc-8z-lu2">
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
@@ -309,15 +296,15 @@
                                         <rect key="frame" x="0.0" y="389" width="375" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1l3-YX-C0d" id="e6d-Jl-Xuh">
-                                            <frame key="frameInset" width="375" height="74"/>
+                                            <frame key="frameInset" width="375" height="75"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Введите номер в формате +7 (812) 777-77-77" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LFk-dr-cbi">
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LFk-dr-cbi">
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Телефон" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Leh-cR-FAN">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone field" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Leh-cR-FAN">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -337,15 +324,15 @@
                                         <rect key="frame" x="0.0" y="464" width="375" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QjB-5d-gHF" id="xHs-UV-Hg3">
-                                            <frame key="frameInset" width="375" height="74"/>
+                                            <frame key="frameInset" width="375" height="75"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Введите адрес ресторана (улица и дом)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e7p-Dr-zxQ">
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e7p-Dr-zxQ">
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Адрес" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72x-Zc-Mag">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location field" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72x-Zc-Mag">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -365,10 +352,10 @@
                                         <rect key="frame" x="0.0" y="539" width="375" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IdK-17-Stq" id="39V-xJ-Tiu">
-                                            <frame key="frameInset" width="375" height="74"/>
+                                            <frame key="frameInset" width="375" height="75"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Вы были здесь?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1AF-w0-W2K">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Been here field" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1AF-w0-W2K">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -380,7 +367,7 @@
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <state key="normal" title="Да"/>
+                                                    <state key="normal" title="Yes"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                             <integer key="value" value="20"/>
@@ -397,7 +384,7 @@
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <state key="normal" title="Нет"/>
+                                                    <state key="normal" title="No"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                             <integer key="value" value="20"/>
@@ -429,13 +416,13 @@
                             <outlet property="delegate" destination="40T-Xu-5hc" id="EzJ-ow-M8D"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Новый ресторан" id="LL5-IO-ssG">
+                    <navigationItem key="navigationItem" id="LL5-IO-ssG">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="eGO-GM-TIg">
                             <connections>
                                 <segue destination="G7f-6J-rfQ" kind="unwind" unwindAction="unwindToRestaurantWithSegue:" id="noZ-Bw-MCK"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Сохранить" id="R5E-nz-it9">
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="R5E-nz-it9">
                             <connections>
                                 <action selector="saveWithSender:" destination="40T-Xu-5hc" id="Fb1-F9-6z8"/>
                             </connections>
@@ -521,11 +508,11 @@
                                 </constraints>
                                 <inset key="separatorInset" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell1" rowHeight="40" id="ZwS-Ch-Ino" customClass="RestaurantCustomTableViewCell1" customModule="RestTV" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="361" height="40"/>
+                                    <tableViewCell autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell1" rowHeight="40" id="ZwS-Ch-Ino" customClass="RestaurantCustomTableViewCell1" customModule="RestTV" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="1000" height="40"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZwS-Ch-Ino" id="6dR-3U-VIX">
-                                            <frame key="frameInset" width="361" height="40"/>
+                                            <frame key="frameInset" width="1000" height="40"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jzt-Jv-62J">
@@ -559,11 +546,11 @@
                                             <outlet property="valueLabel" destination="CTF-V7-AMB" id="fNy-5d-UpR"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell2" rowHeight="40" id="cgN-a4-6p1" customClass="RestaurantCustomTableViewCell2" customModule="RestTV" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="68" width="361" height="40"/>
+                                    <tableViewCell autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell2" rowHeight="40" id="cgN-a4-6p1" customClass="RestaurantCustomTableViewCell2" customModule="RestTV" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="68" width="1000" height="40"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cgN-a4-6p1" id="eLV-TE-dIt">
-                                            <frame key="frameInset" width="361" height="40"/>
+                                            <frame key="frameInset" width="1000" height="40"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kbq-8C-ezX">
@@ -703,7 +690,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="raitingbg" translatesAutoresizingMaskIntoConstraints="NO" id="AR4-j2-AGc"/>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Оцените это заведение!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yBJ-02-PKs">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rate label text" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yBJ-02-PKs">
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -812,11 +799,11 @@
             </objects>
             <point key="canvasLocation" x="3465" y="9"/>
         </scene>
-        <!--Рестораны-->
+        <!--Restaurants-->
         <scene sceneID="6kK-oU-gHj">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qwy-De-3XB" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Рестораны" image="rest" id="uFZ-su-ybc"/>
+                    <tabBarItem key="tabBarItem" title="Restaurants" image="rest" id="uFZ-su-ybc"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="f1J-p9-ksB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -853,12 +840,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="GinzaLogo" width="1560" height="1009"/>
         <image name="about" width="28" height="28"/>
         <image name="close" width="256" height="256"/>
         <image name="dislike" width="256" height="256"/>
         <image name="good" width="256" height="256"/>
         <image name="great" width="256" height="256"/>
-        <image name="logo" width="90" height="93"/>
         <image name="phone2" width="2400" height="2400"/>
         <image name="picture" width="100" height="100"/>
         <image name="pin" width="512" height="512"/>

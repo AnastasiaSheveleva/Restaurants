@@ -7,17 +7,19 @@
 //
 
 import UIKit
+import SafariServices
 
 class AboutTableViewController: UITableViewController {
     
-    var sectionTitle = ["Оставить отзыв", "Подписаться"]
-    var sectionContent = [["Оценить в AppStore", "Оставить отзыв на сайте"], ["Instagram", "Facebook", "Vk"]]
+    var sectionTitle = [NSLocalizedString("Give feedback", comment: "Review section name"), NSLocalizedString("Subscribe", comment: "Share section name")]
+    var sectionContent = [[NSLocalizedString("Rate in the AppStore", comment: "Appstore review"), NSLocalizedString("Leave a comment on the website", comment: "Site review")], ["Instagram", "Facebook", "Vk"]]
     var links = ["https://www.instagram.com/ginzaproject/", "https://www.facebook.com/Ginzaprojectspb/", "https://vk.com/ginzaproject"]
     var images = [["appStore","ginza"], ["instagram","fb","vk"]]
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        tableView.tableFooterView = UIView(frame: CGRect.zero)
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -58,6 +60,28 @@ class AboutTableViewController: UITableViewController {
         cell.textLabel?.text = sectionContent[indexPath.section][indexPath.row]
         cell.imageView?.image = UIImage(named: "\(images[indexPath.section][indexPath.row])")
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        switch indexPath.section {
+        case 0:
+            if indexPath.row == 0 {
+                if let URL = NSURL(string: "http://apple.com") {
+                    UIApplication.shared.open(URL as URL)
+                }
+            } else if indexPath.row == 1 {
+                performSegue(withIdentifier: "showWebView", sender: self)
+            }
+        case 1:
+            if let URL = NSURL(string: links[indexPath.row]) {
+                let safariView = SFSafariViewController(url: URL as URL, entersReaderIfAvailable: true)
+                present(safariView, animated: true, completion: nil)
+            }
+        default:
+            break
+        }
+        
+        tableView.deselectRow(at: indexPath, animated: false)
     }
     
 

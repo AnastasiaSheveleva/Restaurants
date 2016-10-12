@@ -25,6 +25,17 @@ class AddRestaurantTableViewController: UITableViewController, UIImagePickerCont
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Настройка Navigation Bar
+        title = NSLocalizedString("New restaurant", comment: "Add restaurant table name")
+        
+        // Настройка полей для добавления
+        nameTextField.placeholder = NSLocalizedString("Enter restaurant name", comment: "Name place holder")
+        phoneTextField.placeholder = NSLocalizedString("Enter restaurant phone number in format +7 (812) 777-77-77", comment: "Phone place holder")
+        adressTextField.placeholder = NSLocalizedString("Enter restaurant location", comment: "Location place holder")
+        yesButton.setTitle(NSLocalizedString("Yes", comment: "Yes answer"), for: UIControlState.normal)
+        noButton.setTitle(NSLocalizedString("No", comment: "No answer"), for: UIControlState.normal)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -67,7 +78,7 @@ class AddRestaurantTableViewController: UITableViewController, UIImagePickerCont
         
         // Проверка на валидность введенных строк
         if name == "" || phone == "" || adress == "" {
-            let alertController = UIAlertController(title: "Ой!", message: "Невозможно продолжить, потому что одно из полей пустое. Пожалуйста, заполните все необходимые поля.", preferredStyle: UIAlertControllerStyle.alert)
+            let alertController = UIAlertController(title: NSLocalizedString("Oops!", comment: "Oops alert title"), message: NSLocalizedString("You can not continue, because one of the fields blank. Please fill in all required fields", comment: "Text in all field message"), preferredStyle: UIAlertControllerStyle.alert)
             alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
             self.present(alertController, animated: true, completion: nil)
             

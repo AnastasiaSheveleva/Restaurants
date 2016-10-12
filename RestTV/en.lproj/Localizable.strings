@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  RestTV
+
+  Created by Анастасия on 11.10.16.
+  Copyright © 2016 Anastasia. All rights reserved.
+*/
+
+"Restaurants";
+"Restaurants search" = "Search the restaurant...";
+"Share";
+"Delete";
+"Share with text" = "Try tasty food in this place ";
+"New restaurant" = "Add restaurant";
+"Enter restaurant name";
+"Enter restaurant phone number in format +7 (812) 777-77-77";
+"Enter restaurant location";
+"Yes";
+"No";
+"Oops!";
+"You can not continue, because one of the fields blank. Please fill in all required fields";
+"Been here" = "I have been here";
+"Name";
+"Phone";
+"Location";
+"Call to ";
+"by number ";
+"Service is not available";
+"Sorry, but now it is impossible to call. Try later";
+"Give feedback";
+"Subscribe";
+"Rate in the AppStore";
+"Leave a comment on the website";

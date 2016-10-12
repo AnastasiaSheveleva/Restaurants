@@ -1,0 +1,57 @@
+
+/* Class = "UILabel"; text = "Been here field"; ObjectID = "1AF-w0-W2K"; */
+"1AF-w0-W2K.text" = "Вы были здесь?";
+
+/* Class = "UILabel"; text = "Location field"; ObjectID = "72x-Zc-Mag"; */
+"72x-Zc-Mag.text" = "Адрес";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "8U2-TW-D7f"; */
+"8U2-TW-D7f.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "No"; ObjectID = "Ahk-x8-ymW"; */
+"Ahk-x8-ymW.normalTitle" = "Нет";
+
+/* Class = "UILabel"; text = "Name field"; ObjectID = "B9N-g8-g4Z"; */
+"B9N-g8-g4Z.text" = "Название";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "BwD-s3-y2y"; */
+"BwD-s3-y2y.text" = "Location";
+
+/* Class = "UILabel"; text = "Field"; ObjectID = "Bxn-WU-8Zy"; */
+"Bxn-WU-8Zy.text" = "Field";
+
+/* Class = "UILabel"; text = "Value"; ObjectID = "CTF-V7-AMB"; */
+"CTF-V7-AMB.text" = "Value";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "CaV-0Q-HWr"; */
+"CaV-0Q-HWr.text" = "Name";
+
+/* Class = "UITabBarItem"; title = "Recomendation"; ObjectID = "DzL-YR-txY"; */
+"DzL-YR-txY.title" = "Рекомендации";
+
+/* Class = "UILabel"; text = "Phone field"; ObjectID = "Leh-cR-FAN"; */
+"Leh-cR-FAN.text" = "Телефон";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "R5E-nz-it9"; */
+"R5E-nz-it9.title" = "Сохранить";
+
+/* Class = "UITabBarItem"; title = "About"; ObjectID = "Wty-qA-HC6"; */
+"Wty-qA-HC6.title" = "О программе";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "XQj-GI-Qm9"; */
+"XQj-GI-Qm9.title" = "";
+
+/* Class = "UIButton"; normalTitle = "Yes"; ObjectID = "chp-nF-Nvm"; */
+"chp-nF-Nvm.normalTitle" = "Да";
+
+/* Class = "UILabel"; text = "Field"; ObjectID = "lF7-OQ-pJD"; */
+"lF7-OQ-pJD.text" = "Field";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "rIA-hB-Tud"; */
+"rIA-hB-Tud.text" = "Type";
+
+/* Class = "UITabBarItem"; title = "Restaurants"; ObjectID = "uFZ-su-ybc"; */
+"uFZ-su-ybc.title" = "Рестораны";
+
+/* Class = "UILabel"; text = "Rate label text"; ObjectID = "yBJ-02-PKs"; */
+"yBJ-02-PKs.text" = "Оцените это заведение!";
