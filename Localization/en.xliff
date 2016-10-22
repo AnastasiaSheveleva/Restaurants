@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="RestTV/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body/>
+  </file>
+  <file original="RestTV/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="1AF-w0-W2K.text">
+        <source>Been here field</source>
+        
+        <note>Class = "UILabel"; text = "Been here field"; ObjectID = "1AF-w0-W2K";</note>
+      </trans-unit>
+      <trans-unit id="8U2-TW-D7f.text">
+        <source>Title</source>
+        <note>Class = "UILabel"; text = "Title"; ObjectID = "8U2-TW-D7f";</note>
+      </trans-unit>
+      <trans-unit id="72x-Zc-Mag.text">
+        <source>Location field</source>
+        <note>Class = "UILabel"; text = "Location field"; ObjectID = "72x-Zc-Mag";</note>
+      </trans-unit>
+      <trans-unit id="Ahk-x8-ymW.normalTitle">
+        <source>No</source>
+        <note>Class = "UIButton"; normalTitle = "No"; ObjectID = "Ahk-x8-ymW";</note>
+      </trans-unit>
+      <trans-unit id="B9N-g8-g4Z.text">
+        <source>Name field</source>
+        <note>Class = "UILabel"; text = "Name field"; ObjectID = "B9N-g8-g4Z";</note>
+      </trans-unit>
+      <trans-unit id="BwD-s3-y2y.text">
+        <source>Location</source>
+        <note>Class = "UILabel"; text = "Location"; ObjectID = "BwD-s3-y2y";</note>
+      </trans-unit>
+      <trans-unit id="Bxn-WU-8Zy.text">
+        <source>Field</source>
+        <note>Class = "UILabel"; text = "Field"; ObjectID = "Bxn-WU-8Zy";</note>
+      </trans-unit>
+      <trans-unit id="CTF-V7-AMB.text">
+        <source>Value</source>
+        <note>Class = "UILabel"; text = "Value"; ObjectID = "CTF-V7-AMB";</note>
+      </trans-unit>
+      <trans-unit id="CaV-0Q-HWr.text">
+        <source>Name</source>
+        <note>Class = "UILabel"; text = "Name"; ObjectID = "CaV-0Q-HWr";</note>
+      </trans-unit>
+      <trans-unit id="DzL-YR-txY.title">
+        <source>Рекомендации</source>
+        <note>Class = "UITabBarItem"; title = "Рекомендации"; ObjectID = "DzL-YR-txY";</note>
+      </trans-unit>
+      <trans-unit id="Leh-cR-FAN.text">
+        <source>Phone field</source>
+        <note>Class = "UILabel"; text = "Phone field"; ObjectID = "Leh-cR-FAN";</note>
+      </trans-unit>
+      <trans-unit id="R5E-nz-it9.title">
+        <source>Save</source>
+        <note>Class = "UIBarButtonItem"; title = "Save"; ObjectID = "R5E-nz-it9";</note>
+      </trans-unit>
+      <trans-unit id="Wty-qA-HC6.title">
+        <source>О программе</source>
+        <note>Class = "UITabBarItem"; title = "О программе"; ObjectID = "Wty-qA-HC6";</note>
+      </trans-unit>
+      <trans-unit id="XQj-GI-Qm9.title">
+        <source>Root View Controller</source>
+        <note>Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "XQj-GI-Qm9";</note>
+      </trans-unit>
+      <trans-unit id="chp-nF-Nvm.normalTitle">
+        <source>Yes</source>
+        <note>Class = "UIButton"; normalTitle = "Yes"; ObjectID = "chp-nF-Nvm";</note>
+      </trans-unit>
+      <trans-unit id="lF7-OQ-pJD.text">
+        <source>Field</source>
+        <note>Class = "UILabel"; text = "Field"; ObjectID = "lF7-OQ-pJD";</note>
+      </trans-unit>
+      <trans-unit id="rIA-hB-Tud.text">
+        <source>Type</source>
+        <note>Class = "UILabel"; text = "Type"; ObjectID = "rIA-hB-Tud";</note>
+      </trans-unit>
+      <trans-unit id="uFZ-su-ybc.title">
+        <source>Рестораны</source>
+        <note>Class = "UITabBarItem"; title = "Рестораны"; ObjectID = "uFZ-su-ybc";</note>
+      </trans-unit>
+      <trans-unit id="yBJ-02-PKs.text">
+        <source>Rate label text</source>
+        <note>Class = "UILabel"; text = "Rate label text"; ObjectID = "yBJ-02-PKs";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="RestTV/Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="RestTV/Localizable.strings" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8A218a"/>
+    </header>
+    <body>
+      <trans-unit id="Адрес">
+        <source>Адрес</source>
+        <note>Location field</note>
+      </trans-unit>
+      <trans-unit id="Введите адрес ресторана (улица и дом)">
+        <source>Введите адрес ресторана (улица и дом)</source>
+        <note>Location place holder</note>
+      </trans-unit>
+      <trans-unit id="Введите название ресторана">
+        <source>Введите название ресторана</source>
+        <note>Name place holder</note>
+      </trans-unit>
+      <trans-unit id="Введите номер в формате +7 (812) 777-77-77">
+        <source>Введите номер в формате +7 (812) 777-77-77</source>
+        <note>Phone place holder</note>
+      </trans-unit>
+      <trans-unit id="Вы были здесь?">
+        <source>Вы были здесь?</source>
+        <note>Been here field</note>
+      </trans-unit>
+      <trans-unit id="Да">
+        <source>Да</source>
+        <note>Answer yes
+   Yes answer</note>
+      </trans-unit>
+      <trans-unit id="Название">
+        <source>Название</source>
+        <note>Name field</note>
+      </trans-unit>
+      <trans-unit id="Невозможно продолжить, потому что одно из полей пустое. Пожалуйста, заполните все необходимые поля.">
+        <source>Невозможно продолжить, потому что одно из полей пустое. Пожалуйста, заполните все необходимые поля.</source>
+        <note>Text in all field message</note>
+      </trans-unit>
+      <trans-unit id="Нет">
+        <source>Нет</source>
+        <note>Answer no
+   No answer</note>
+      </trans-unit>
+      <trans-unit id="Новый ресторан">
+        <source>Новый ресторан</source>
+        <note>Add restaurant table name</note>
+      </trans-unit>
+      <trans-unit id="Ой!">
+        <source>Ой!</source>
+        <note>Oops alert title</note>
+      </trans-unit>
+      <trans-unit id="Оставить отзыв">
+        <source>Оставить отзыв</source>
+        <note>Review section name</note>
+      </trans-unit>
+      <trans-unit id="Оставить отзыв на сайте">
+        <source>Оставить отзыв на сайте</source>
+        <note>Site review</note>
+      </trans-unit>
+      <trans-unit id="Оцените это заведение!">
+        <source>Оцените это заведение!</source>
+        <note>Rate label</note>
+      </trans-unit>
+      <trans-unit id="Оценить в AppStore">
+        <source>Оценить в AppStore</source>
+        <note>Appstore review</note>
+      </trans-unit>
+      <trans-unit id="Поделиться">
+        <source>Поделиться</source>
+        <note>Share button</note>
+      </trans-unit>
+      <trans-unit id="Подписаться">
+        <source>Подписаться</source>
+        <note>Share section name</note>
+      </trans-unit>
+      <trans-unit id="Позвонить в ">
+        <source>Позвонить в </source>
+        <note>Call in allert title</note>
+      </trans-unit>
+      <trans-unit id="Поиск ресторанов...">
+        <source>Поиск ресторанов...</source>
+        <note>Search bar placeholder</note>
+      </trans-unit>
+      <trans-unit id="Попробуй вкусняшки в ">
+        <source>Попробуй вкусняшки в </source>
+        <note>Share text</note>
+      </trans-unit>
+      <trans-unit id="Простите но сейчас позвонить невозможно. Попробуйте позже.">
+        <source>Простите но сейчас позвонить невозможно. Попробуйте позже.</source>
+        <note>Service is not available allert message</note>
+      </trans-unit>
+      <trans-unit id="Рестораны">
+        <source>Рестораны</source>
+        <note>Main table name</note>
+      </trans-unit>
+      <trans-unit id="Сервис не доступен">
+        <source>Сервис не доступен</source>
+        <note>Service is not available allert title</note>
+      </trans-unit>
+      <trans-unit id="Сохранить">
+        <source>Сохранить</source>
+        <note>Save bar button item</note>
+      </trans-unit>
+      <trans-unit id="Телефон">
+        <source>Телефон</source>
+        <note>Phone field</note>
+      </trans-unit>
+      <trans-unit id="Удалить">
+        <source>Удалить</source>
+        <note>Delete button</note>
+      </trans-unit>
+      <trans-unit id="Я был здесь">
+        <source>Я был здесь</source>
+        <note>Been here field</note>
+      </trans-unit>
+      <trans-unit id="по номеру ">
+        <source>по номеру </source>
+        <note>Number in allert message</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

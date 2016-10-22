@@ -1,0 +1,6 @@
+framework module Pods_RestTV {
+  umbrella header "Pods-RestTV-umbrella.h"
+
+  export *
+  module * { export * }
+}
