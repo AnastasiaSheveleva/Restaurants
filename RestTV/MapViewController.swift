@@ -21,7 +21,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         mapView.delegate = self
 
         let geoCoder = CLGeocoder()
-        geoCoder.geocodeAddressString("Россия, Санкт-Петербург, " + restaurant.adress, completionHandler: { placemarks, error in
+        geoCoder.geocodeAddressString(restaurant.adress, completionHandler: { placemarks, error in
             if  error != nil {
                 print(error)
                 return

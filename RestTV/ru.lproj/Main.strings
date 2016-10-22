@@ -39,7 +39,7 @@
 "Wty-qA-HC6.title" = "О программе";
 
 /* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "XQj-GI-Qm9"; */
-"XQj-GI-Qm9.title" = "";
+"XQj-GI-Qm9.title" = "Рекомендации";
 
 /* Class = "UIButton"; normalTitle = "Yes"; ObjectID = "chp-nF-Nvm"; */
 "chp-nF-Nvm.normalTitle" = "Да";

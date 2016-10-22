@@ -20,7 +20,7 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
         super.viewDidLoad()
     
         // Убрать пустые ячейки таблицы
-        //tableView.tableFooterView = UIView(frame: CGRect.zero)
+        // tableView.tableFooterView = UIView(frame: CGRect.zero)
     
         // Сменить title в Navigation Bar
         title = NSLocalizedString("Restaurants", comment: "Main table name")
@@ -100,7 +100,7 @@ class RestaurantTableViewController: UITableViewController, NSFetchedResultsCont
             let image = UIImage(data: restaurant.image as! Data)
                 cell.thumbnailImageView?.image = image
             } else {
-                cell.thumbnailImageView?.image = UIImage(named: "picture")
+                cell.thumbnailImageView?.image = UIImage(named: "minizagl")
             }
     
         //cell.thumbnailImageView?.image = UIImage(data: restaurants[indexPath.row].image as! Data)

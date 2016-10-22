@@ -151,7 +151,7 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let alertController = UIAlertController(title: NSLocalizedString("Call to ", comment: "Call in allert title") + "\(restaurant.name)", message: NSLocalizedString("by number ", comment: "Number in allert message") + "\(restaurant.phone! as String)" + "?", preferredStyle: UIAlertControllerStyle.alert)
         alertController.addAction(UIAlertAction(title: NSLocalizedString("Yes", comment: "Answer yes"), style: UIAlertActionStyle.default, handler: {
             (action: UIAlertAction!) -> Void in
-            let alertController2 = UIAlertController(title: NSLocalizedString("Service is not available", comment: "Service is not available allert title") , message: NSLocalizedString("Sorry, but now it is impossible to call. Try later.", comment: "Service is not available allert message"), preferredStyle: UIAlertControllerStyle.alert)
+            let alertController2 = UIAlertController(title: NSLocalizedString("Service is not available", comment: "Service is not available allert title") , message: NSLocalizedString("Sorry, but now it is impossible to call. Try later", comment: "Service is not available allert message"), preferredStyle: UIAlertControllerStyle.alert)
             alertController2.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
             self.present(alertController2, animated: true, completion: nil)
         }))

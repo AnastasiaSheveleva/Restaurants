@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5D1F27D61D99976A006DED74 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1F27D51D99976A006DED74 /* DetailViewController.swift */; };
+		5D28551F1DAF7D110066A82B /* RecomendationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D28551E1DAF7D110066A82B /* RecomendationsTableViewController.swift */; };
+		5D2855211DAF8DC00066A82B /* RecomendationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2855201DAF8DC00066A82B /* RecomendationsTableViewCell.swift */; };
 		5D39439D1DACF906003DF871 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D39439C1DACF906003DF871 /* WebViewController.swift */; };
 		5D3F0E141DA425ED00F3CCFB /* Restaurant+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3F0E121DA425ED00F3CCFB /* Restaurant+CoreDataClass.swift */; };
 		5D3F0E151DA425ED00F3CCFB /* Restaurant+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3F0E131DA425ED00F3CCFB /* Restaurant+CoreDataProperties.swift */; };
@@ -27,11 +29,14 @@
 		5D8A812B1D9BDA0E0014EB06 /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A812A1D9BDA0E0014EB06 /* RateViewController.swift */; };
 		5DB211591DA6659B0051DA40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB211571DA6659B0051DA40 /* Main.storyboard */; };
 		5DE6F41B1DAEFAA600AA2F80 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE6F41A1DAEFAA600AA2F80 /* CloudKit.framework */; };
+		8478BD61BF3503540081DAFF /* Pods_RestTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E0ABCC31A2AF0367C46AC9 /* Pods_RestTV.framework */; };
 		F2968F221DA1AC3300EE9205 /* AddRestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2968F211DA1AC3300EE9205 /* AddRestaurantTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5D1F27D51D99976A006DED74 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5D28551E1DAF7D110066A82B /* RecomendationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecomendationsTableViewController.swift; sourceTree = "<group>"; };
+		5D2855201DAF8DC00066A82B /* RecomendationsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecomendationsTableViewCell.swift; sourceTree = "<group>"; };
 		5D39439C1DACF906003DF871 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		5D3F0E121DA425ED00F3CCFB /* Restaurant+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Restaurant+CoreDataClass.swift"; sourceTree = "<group>"; };
 		5D3F0E131DA425ED00F3CCFB /* Restaurant+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Restaurant+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -61,6 +66,9 @@
 		5DB211581DA6659B0051DA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DE6F4191DAEFA9900AA2F80 /* RestTV.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RestTV.entitlements; sourceTree = "<group>"; };
 		5DE6F41A1DAEFAA600AA2F80 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		5E5B1644FBB1DDE304C52B44 /* Pods-RestTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestTV/Pods-RestTV.debug.xcconfig"; sourceTree = "<group>"; };
+		62E8795A05A34D109976CA5A /* Pods-RestTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestTV/Pods-RestTV.release.xcconfig"; sourceTree = "<group>"; };
+		86E0ABCC31A2AF0367C46AC9 /* Pods_RestTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2968F211DA1AC3300EE9205 /* AddRestaurantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRestaurantTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,12 +79,22 @@
 			files = (
 				5D5079E71D9D7410006E3B00 /* MapKit.framework in Frameworks */,
 				5DE6F41B1DAEFAA600AA2F80 /* CloudKit.framework in Frameworks */,
+				8478BD61BF3503540081DAFF /* Pods_RestTV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1923CAE8B8AE72057B800A20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E5B1644FBB1DDE304C52B44 /* Pods-RestTV.debug.xcconfig */,
+				62E8795A05A34D109976CA5A /* Pods-RestTV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5D495D3B1D9ADF86008AFDEF /* Detail */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +119,7 @@
 			children = (
 				5DE6F41A1DAEFAA600AA2F80 /* CloudKit.framework */,
 				5D5079E61D9D7410006E3B00 /* MapKit.framework */,
+				86E0ABCC31A2AF0367C46AC9 /* Pods_RestTV.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,6 +132,7 @@
 				5D86F94A1D9543660081502D /* RestTV */,
 				5D86F9491D9543660081502D /* Products */,
 				5D5079E51D9D7410006E3B00 /* Frameworks */,
+				1923CAE8B8AE72057B800A20 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,9 +148,11 @@
 			isa = PBXGroup;
 			children = (
 				5DE6F4191DAEFA9900AA2F80 /* RestTV.entitlements */,
-				5DB211571DA6659B0051DA40 /* Main.storyboard */,
-				5D39439C1DACF906003DF871 /* WebViewController.swift */,
 				5D42F2311DA41D2C00B1BAD1 /* RestaurantModel.xcdatamodeld */,
+				5DB211571DA6659B0051DA40 /* Main.storyboard */,
+				5D2855201DAF8DC00066A82B /* RecomendationsTableViewCell.swift */,
+				5D28551E1DAF7D110066A82B /* RecomendationsTableViewController.swift */,
+				5D39439C1DACF906003DF871 /* WebViewController.swift */,
 				5D5E68241DA6BA010028B3B5 /* AboutTableViewController.swift */,
 				5D86F94B1D9543660081502D /* AppDelegate.swift */,
 				F2968F211DA1AC3300EE9205 /* AddRestaurantTableViewController.swift */,
@@ -154,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D86F95A1D9543660081502D /* Build configuration list for PBXNativeTarget "RestTV" */;
 			buildPhases = (
+				BB300F9DE25CAFD1213EE616 /* 📦 Check Pods Manifest.lock */,
 				5D86F9441D9543660081502D /* Sources */,
 				5D86F9451D9543660081502D /* Frameworks */,
 				5D86F9461D9543660081502D /* Resources */,
+				10547073A95473A87B4A3F73 /* 📦 Embed Pods Frameworks */,
+				8605A75BA53C82BA3B1163CF /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,6 +205,7 @@
 					5D86F9471D9543660081502D = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 3QECJ2F23U;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
@@ -229,6 +255,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10547073A95473A87B4A3F73 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestTV/Pods-RestTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8605A75BA53C82BA3B1163CF /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestTV/Pods-RestTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB300F9DE25CAFD1213EE616 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5D86F9441D9543660081502D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -238,6 +312,7 @@
 				5D5E68251DA6BA010028B3B5 /* AboutTableViewController.swift in Sources */,
 				F2968F221DA1AC3300EE9205 /* AddRestaurantTableViewController.swift in Sources */,
 				5D86F9601D955FD90081502D /* CustomTableViewCell.swift in Sources */,
+				5D28551F1DAF7D110066A82B /* RecomendationsTableViewController.swift in Sources */,
 				5D86F95E1D9544020081502D /* RestaurantTableViewController.swift in Sources */,
 				5D4E2A691D9A789E0036F2A3 /* RestaurantCustomTableViewCell1.swift in Sources */,
 				5D42F2331DA41D2C00B1BAD1 /* RestaurantModel.xcdatamodeld in Sources */,
@@ -247,6 +322,7 @@
 				5D86F94C1D9543660081502D /* AppDelegate.swift in Sources */,
 				5D39439D1DACF906003DF871 /* WebViewController.swift in Sources */,
 				5D8A812B1D9BDA0E0014EB06 /* RateViewController.swift in Sources */,
+				5D2855211DAF8DC00066A82B /* RecomendationsTableViewCell.swift in Sources */,
 				5D1F27D61D99976A006DED74 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +469,7 @@
 		};
 		5D86F95B1D9543660081502D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5B1644FBB1DDE304C52B44 /* Pods-RestTV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = RestTV/RestTV.entitlements;
@@ -407,6 +484,7 @@
 		};
 		5D86F95C1D9543660081502D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E8795A05A34D109976CA5A /* Pods-RestTV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = RestTV/RestTV.entitlements;

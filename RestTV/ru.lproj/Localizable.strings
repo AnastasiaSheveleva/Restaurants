@@ -13,7 +13,7 @@
 "Share with text" = "Попробуй вкусняшки в ";
 "New restaurant" = "Новый ресторан";
 "Enter restaurant name" = "Введите название ресторана";
-"Enter restaurant phone number in format +7 (812) 777-77-77" = "Введите номер в формате +7 (812) 777-77-77";
+"Enter phone number in format +7 (812) 777-77-77" = "Введите номер в формате +7 (812) 777-77-77";
 "Enter restaurant location" = "Введите адрес ресторана (улица и дом)";
 "Yes" = "Да";
 "No" = "Нет";
